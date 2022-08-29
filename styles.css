@@ -1,3 +1,4 @@
+<style>
 body {
   background-color: red;
 }
@@ -6,3 +7,16 @@ h1 {
 }
 p {
   color: white}
+
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+</style>
+<body>
+
+<div class="content">
+  <!-- Page content -->
+</div>
+
+</body>
