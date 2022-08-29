@@ -25,3 +25,16 @@ ul {
     text-align: center;
     list-style-position: inside;
 }
+body {
+  position: relative /* force it to contain absolutely positioned children */
+}
+div#holiday-ornament {
+  background: url("http://www.americanchic.net/website_graphics/test_ornament.png") no-repeat;
+  width: 160px; /*set the width and height to the width and height of the image */
+  height: 250px;
+  text-indent: -9999px; /* Move the text inside of the div off screen. Still readable for text-readers for the blind */
+
+  position: absolute;
+  left: 5%; /* Play around with the left attribute until it's placed where you want it */
+  top: -25px; /*Your site has a strange top margin to its body element. Changing the top to a negative value compensates for it */
+}
