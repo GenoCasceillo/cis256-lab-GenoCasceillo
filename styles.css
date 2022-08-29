@@ -1,3 +1,6 @@
+.intro {
+  background-color: yellow;
+}
 
 body {
   background-color: red;
@@ -28,6 +31,10 @@ ul {
 body {
   position: relative /* force it to contain absolutely positioned children */
 }
+footer{
+    text-align: center;
+    color: gold;
+}
 div#holiday-ornament {
   background: url("https://m.media-amazon.com/images/M/MV5BNDg1NTU2OWEtM2UzYi00ZWRmLWEwMTktZWNjYWQ1NWM1OThjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg:*") no-repeat;
   width: 800px; /*set the width and height to the width and height of the image */
@@ -39,12 +46,12 @@ div#holiday-ornament {
   top: -25px;
 }
 div#trans2 {
-  background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/26f4e661-9a5e-4b69-bbf3-b4995e3c2576/df1ltsz-5fc88b03-42fe-4aae-89b1-dc9041c45733.png/v1/fill/w_446,h_851,strp/cody_maverick_concerned_render_by_markendria_df1ltsz-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODUxIiwicGF0aCI6IlwvZlwvMjZmNGU2NjEtOWE1ZS00YjY5LWJiZjMtYjQ5OTVlM2MyNTc2XC9kZjFsdHN6LTVmYzg4YjAzLTQyZmUtNGFhZS04OWIxLWRjOTA0MWM0NTczMy5wbmciLCJ3aWR0aCI6Ijw9NDQ2In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.rP8dmbQuRcoBRInUJo7ZGqe2MzpAEM3c0yfdZKy5Ob4:*") no-repeat;
-  width: 800px; /*set the width and height to the width and height of the image */
+  background: url("https://m.media-amazon.com/images/M/MV5BNDg1NTU2OWEtM2UzYi00ZWRmLWEwMTktZWNjYWQ1NWM1OThjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg:*") no-repeat;
+  width: 400px; /*set the width and height to the width and height of the image */
   height: 800px;
   text-indent: -9999px; /* Move the text inside of the div off screen. Still readable for text-readers for the blind */
 
   position: absolute;
-  left: -5;
+  left: 101%;
   top: -25px;
 }
