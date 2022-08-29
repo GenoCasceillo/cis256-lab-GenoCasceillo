@@ -1,7 +1,7 @@
-.intro {
-  background-color: yellow;
+.bright {
+  color: orange;
+  font-family: Avenir;
 }
-
 body {
   background-color: red;
     margin-left: 400px;
