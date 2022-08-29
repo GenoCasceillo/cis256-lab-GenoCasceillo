@@ -1,8 +1,8 @@
 
 body {
   background-color: red;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 500;
+    margin-right: 500;
     text-align: center;
     border: 3px solid gold;
 }
