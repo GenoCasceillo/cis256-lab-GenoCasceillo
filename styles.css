@@ -6,11 +6,14 @@ body {
 }
 h1 {
     text-align: center;
-    border: 3px solid gold;
+
   color: gold;
 }
 p {
   color: white;
     text-align: center;
-    border: 3px solid gold;
+}
+table {
+      text-align: center;
+      border: 3px solid gold;
 }
