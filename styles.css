@@ -29,7 +29,7 @@ body {
   position: relative /* force it to contain absolutely positioned children */
 }
 div#holiday-ornament {
-  background: url("http://www.americanchic.net/website_graphics/test_ornament.png") no-repeat;
+  background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2022-chevrolet-corvette-z06-1607016574.jpg?crop=0.737xw:0.738xh;0.181xw,0.218xh&resize=640:*") no-repeat;
   width: 160px; /*set the width and height to the width and height of the image */
   height: 250px;
   text-indent: -9999px; /* Move the text inside of the div off screen. Still readable for text-readers for the blind */
