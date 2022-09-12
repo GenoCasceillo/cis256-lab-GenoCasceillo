@@ -29,7 +29,7 @@ ul {
     list-style-position: inside;
 }
 body {
-  position: relative /* force it to contain absolutely positioned children */
+  position: relative
 }
 footer{
     text-align: center;
@@ -47,7 +47,7 @@ div#holiday-ornament {
 }
 div#trans2 {
   background: url("https://m.media-amazon.com/images/M/MV5BNDg1NTU2OWEtM2UzYi00ZWRmLWEwMTktZWNjYWQ1NWM1OThjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg:*") no-repeat;
-  width: 400px; /*set the width and height to the width and height of the image */
+  width: 400px;
   height: 800px;
   text-indent: -9999px; /* Move the text inside of the div off screen. Still readable for text-readers for the blind */
 
