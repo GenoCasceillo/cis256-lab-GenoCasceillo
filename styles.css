@@ -76,7 +76,7 @@ nav a {text-decoration: none;} /* No underline on links in navbar */
 .nav-link{ font-size: 1.6rem; font-weight: 400; color: #475569;}
 
 /* Changes color of link when hover over it */
-.nav-link:hover { color: #482ff7;}
+.nav-link:hover { color: ##13f502;}
 
 /* z-index makes sure menu shows up on top of other elements,
    transition is speed menu items transition to active
