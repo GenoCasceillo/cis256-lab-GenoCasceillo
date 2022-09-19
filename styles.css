@@ -114,11 +114,11 @@ position to 0 (no longer hiding at left position -100%) */
 }
 
 .darkmode.bar {
-  background-color:rgba(230,230,230,1.0);
+  background-color:rgba(100,100,100,1.0);
 }
 
 .darkmode ul li{
-  background-color:rgba(100,100,100,1.0);
+  background-color:rgba(0,0,0,1.0);
 }
 
 .darkmode table{
