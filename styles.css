@@ -60,41 +60,41 @@ div#trans2 {
  }
 
  .nav-menu {
- z-index: 3;
- position: fixed;
- left: -100%;
- top: 55%;
- flex-direction: column;
- background:rgba(255,255,255,1.0);
- text-align: center;
- transition: 0.3s;
+   z-index: 3;
+   position: fixed;
+   left: -100%;
+   top: 55%;
+   flex-direction: column;
+   background:rgba(255,255,255,1.0);
+   text-align: center;
+   transition: 0.3s;
  }
 
  .nav-menu.active {
- left: 0;
+   left: 0;
  }
 
  .bar {
- display: block;
- width: 25px;
- height: 3px;
- margin: 5px auto;
- transition: all 0.3s ease-in-out;
- background-color: #101010;
+   display: block;
+   width: 25px;
+   height: 3px;
+   margin: 5px auto;
+   transition: all 0.3s ease-in-out;
+   background-color: #101010;
  }
 
  /* When hamburger is active, hide middle bar */
  .hamburger.active .bar:nth-child(2) {
- opacity: 0;
+   opacity: 0;
  }
  /* When hamburger is active, rotate top bar 45deg to make one cross of X */
  .hamburger.active .bar:nth-child(1) {
- transform: translateY(8px) rotate(45deg);
+   transform: translateY(8px) rotate(45deg);
  }
 
  /* When hamburger is active, rotate bottom bar -45deg to make other cross of X */
  .hamburger.active .bar:nth-child(3) {
- transform: translateY(-8px) rotate(-45deg);
+   transform: translateY(-8px) rotate(-45deg);
  }
 
 
