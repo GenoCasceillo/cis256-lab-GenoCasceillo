@@ -58,8 +58,10 @@ div#trans2 {
    margin: 0;
    padding: 0;
  }
+}
 
- /* Navigation Bar */
+
+//* Navigation Bar */
 nav li {list-style: none;} /* No bullets */
 
 nav a {text-decoration: none;} /* No underline on links in navbar */
@@ -94,7 +96,7 @@ nav a {text-decoration: none;} /* No underline on links in navbar */
 position to 0 (no longer hiding at left position -100%) */
 .nav-menu.active {
     left: 0;
-  }
+}
 
 
 
@@ -136,7 +138,7 @@ position to 0 (no longer hiding at left position -100%) */
       z-index: 4;
       position: fixed;
       left: -100%;
-      top: 55%;
+      top: 15%;
       flex-direction: column;
       background:rgba(255,255,255,1.0);
       text-align: center;
