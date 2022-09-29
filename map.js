@@ -12,8 +12,8 @@ function getJSONMarkers() {
       "location": [33.3152, 44.3661],
     },
     {
-      "name": "Gta 5 map",
-      "location": [34.0522, 118.2437],
+      "name": "Russia or something idk",
+      "location": [41.6032, 73.0877],
     },
     {
       "name": "Andrew Tate Lives Here",
@@ -21,7 +21,7 @@ function getJSONMarkers() {
     },
     {
       "name": "Notre Dame University",
-      "location": [41.7056, 86.2353],
+      "location": [41.697578, -86.228096],
     }
 	]
 
