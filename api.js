@@ -1,7 +1,7 @@
 // fetch data from a public API
 function doAPICall() {
 
-  fetch("https://api.kanye.rest")
+  fetch("https://api.chucknorris.io/jokes/random")
   .then(response => response.json())
   .then(data => processData(data));
 
