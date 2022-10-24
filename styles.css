@@ -181,5 +181,8 @@ position to 0 (no longer hiding at left position -100%) */
       .nav-menu{
         z-index: 4;
         flex-direction: column;
-  
+        background:rgba(255,255,255,1.0);
+        text-align: center;
+        transition: 0.3s;
+      }
   }
