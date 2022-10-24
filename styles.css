@@ -177,3 +177,12 @@ position to 0 (no longer hiding at left position -100%) */
   .hamburger.active .bar:nth-child(3) {
       transform: translateY(-8px) rotate(-45deg);
   }
+  @media (min-width: 801px) {
+      .nav-menu{
+        z-index: 4;
+        flex-direction: column;
+        background:rgba(255,255,255,1.0);
+        text-align: center;
+        transition: 0.3s;
+      }
+  }
