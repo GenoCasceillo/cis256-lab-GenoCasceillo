@@ -34,31 +34,6 @@ body {
 footer{
     text-align: center;
     color: gold;
-}
-div#holiday-ornament {
-  background: url("https://m.media-amazon.com/images/M/MV5BNDg1NTU2OWEtM2UzYi00ZWRmLWEwMTktZWNjYWQ1NWM1OThjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg:*") no-repeat;
-  width: 800px; /*set the width and height to the width and height of the image */
-  height: 800px;
-  text-indent: -9999px; /* Move the text inside of the div off screen. Still readable for text-readers for the blind */
-
-  position: absolute;
-  left: -113%;
-  top: -25px;
-}
-div#trans2 {
-  background: url("https://m.media-amazon.com/images/M/MV5BNDg1NTU2OWEtM2UzYi00ZWRmLWEwMTktZWNjYWQ1NWM1OThjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg:*") no-repeat;
-  width: 400px;
-  height: 800px;
-  text-indent: -9999px; /* Move the text inside of the div off screen. Still readable for text-readers for the blind */
-
-  position: absolute;
-  left: 101%;
-  top: -25px;
-  {
-   margin: 0;
-   padding: 0;
- }
-}
 
 
 //* Navigation Bar */
