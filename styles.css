@@ -35,6 +35,8 @@ footer{
     text-align: center;
     color: gold;
 
+}
+
 
 //* Navigation Bar */
 nav li {list-style: none;} /* No bullets */
@@ -57,13 +59,16 @@ nav a {text-decoration: none;} /* No underline on links in navbar */
    transition is speed menu items transition to active
    left: -100% hides the menu off the screen when it's not active */
 
-@media (min-width: 801px) {
-    .nav-menu{
+@media (min-width: 1000px)
+  {
+    .nav-menu
+    {
       z-index: 4;
       flex-direction: column;
       background:rgba(255,255,255,1.0);
       text-align: center;
       transition: 0.3s;
+
     }
 }
 
@@ -151,13 +156,4 @@ position to 0 (no longer hiding at left position -100%) */
   /* When hamburger is active, rotate bottom bar -45deg to make other cross of X */
   .hamburger.active .bar:nth-child(3) {
       transform: translateY(-8px) rotate(-45deg);
-  }
-  @media (min-width: 802px) {
-      .nav-menu{
-        z-index: 3;
-        flex-direction: column;
-  background:rgba(255,255,200,1.0);
-  text-align: center;
-  transition: 0.3s;
-      }
   }
